@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jar_files1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jar_files/jcommander-1.78.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jar_files/jquery-3.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jar_files/testng-7.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

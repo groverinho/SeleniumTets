@@ -3,13 +3,10 @@ package src;
 import org.openqa.selenium.By;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.junit.Before;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.Assert;
-
-import java.util.List;
 
 public class Main {
 
@@ -21,7 +18,6 @@ public class Main {
     public void launchBrowser() {
         System.setProperty("webdriver.chrome.driver", chromePath);
         webDriver = new ChromeDriver();
-        WebDriver driver = new FirefoxDriver();
         System.out.println("Open website");
         webDriver.manage().window().maximize();
         webDriver.get(baseURL);
